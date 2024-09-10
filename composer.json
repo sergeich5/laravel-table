@@ -1,5 +1,6 @@
 {
   "name": "sergeich5/laravel-table",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Sergeich5\\LaravelTable\\": "src/"
