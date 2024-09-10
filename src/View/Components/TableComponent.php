@@ -9,9 +9,9 @@ class TableComponent extends Component
 {
     private Table $table;
 
-    function __construct(Table $builder)
+    function __construct(Table $table)
     {
-        $this->table = $builder;
+        $this->table = $table;
     }
 
     function render()
