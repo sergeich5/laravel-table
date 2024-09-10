@@ -1,0 +1,25 @@
+{
+  "name": "sergeich5/laravel-table",
+  "autoload": {
+    "psr-4": {
+      "Sergeich5\\LaravelTable\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "laravel/framework": "^8.0|^9.0|^10.0|^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sergeich5\\LaravelTable\\LaravelTableServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit tests"
+  }
+}
